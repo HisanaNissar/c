@@ -65,6 +65,7 @@ return;
 }
 else
 {
+if(Front==Rear)
 printf("Element delet from the queue:%d\n",queue[Front]);
 Front=Front+1;
 }
