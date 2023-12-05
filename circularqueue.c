@@ -37,7 +37,7 @@ void display()
         for(i=front;i<n;i++)
         printf("%d ",a[i]);
         for(i=0;i<=rear;i++)
-        printf("%d ",a[i]);
+        printf("%d",a[i]);
     }
 }
 void del() 

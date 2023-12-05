@@ -160,7 +160,7 @@ switch (choice) {
                 scanf("%d", &data);
                 insertAtBeginning(&head, data);
                 break;
-            case 2:
+            case 2: 
                 printf("Enter data to insert at end: ");
                 scanf("%d", &data);
                 insertAtEnd(&head, data);
@@ -202,4 +202,5 @@ while (choice != 9);
 
 return 0;
 }
+
 
